@@ -159,7 +159,50 @@ footer .wrap .content_box .text p {
   line-height: var(--font-height-md);
 }
 
-/*  */
+/* .list_type_01  */
+.list_type_01 {
+  display: inline-block;
+}
+.list_type_01 li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #d1d5db;
+}
+.list_type_01 li:nth-child(n + 2) {
+  margin-top: 50px;
+}
+.list_type_01 li:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.list_type_01 li:nth-child(2n) .text_box {
+  text-align: right;
+}
+.list_type_01 li .img_box {
+  width: 50%;
+}
+.list_type_01 li .img_box img {
+  width: 100%;
+}
+.list_type_01 li .text_box {
+  width: 50%;
+}
+.list_type_01 li .text_box h3 {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
+  background: linear-gradient(to right, #2376dd, #ff9050);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.list_type_01 li .text_box p {
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+}
+
+/* .btn_type_01  */
 .btn_type_01 {
   display: inline-block;
   width: 130px;
