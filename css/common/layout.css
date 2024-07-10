@@ -133,6 +133,12 @@ footer .wrap .content_box .text p {
   font-size: var(--font-size-h2);
   line-height: var(--font-height-h2);
 }
+.tit_type_01 h2 em {
+  background: linear-gradient(to right, #2376dd, #ff9050);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 .tit_type_01 p {
   margin-top: 20px;
   font-size: var(--font-size-md);

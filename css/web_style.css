@@ -207,6 +207,9 @@ body {
   font-size: var(--font-size-h1);
   color: var(--color-light);
 }
+.sub section {
+  padding-top: 100px;
+}
 
 /* human */
 #human main {
@@ -214,4 +217,7 @@ body {
     url(../img/main/img_05.jpg);
   background-size: cover;
   background-position: center;
+}
+#human section {
+  border: 1px solid red;
 }
