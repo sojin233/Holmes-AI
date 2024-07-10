@@ -222,3 +222,31 @@ body {
 #human section .list_type_01 {
   margin-top: 50px;
 }
+
+/* contact */
+#contact main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/main/img_09.jpg);
+  background-size: cover;
+  background-position: 0 80%;
+}
+#contact .map_list ul {
+  display: flex;
+  gap: 30px;
+}
+#contact .map_list ul li {
+  width: 50%;
+}
+#contact .map_list ul li iframe {
+  width: 100%;
+}
+#contact .map_list ul li p {
+  margin-top: 20px;
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
+  text-align: center;
+  font-weight: 700;
+}
+#contact .table_type_01 {
+  margin-top: 100px;
+}
