@@ -41,7 +41,7 @@ body {
   width: 100%;
 }
 
-/* main */
+/*======================= main ======================= */
 #main main {
   width: 100%;
   height: 100%;
@@ -115,7 +115,6 @@ body {
   padding: 100px 80px;
   color: #fff;
 }
-
 /* section_06 */
 #main #section_06 {
   height: -webkit-fill-available;
@@ -189,4 +188,30 @@ body {
 #section_08 .btn_box {
   text-align: center;
   margin-top: 60px;
+}
+
+/*======================= sub ======================= */
+.sub main {
+  width: 100%;
+  height: 60%;
+}
+.sub main .wrap {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.sub main .wrap h1 {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: var(--font-size-h1);
+  color: var(--color-light);
+}
+
+/* human */
+#human main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/main/img_05.jpg);
+  background-size: cover;
+  background-position: center;
 }
