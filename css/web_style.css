@@ -192,6 +192,7 @@ body {
 
 /*======================= sub ======================= */
 .sub main {
+  position: relative;
   width: 100%;
   height: 60%;
 }
@@ -249,4 +250,20 @@ body {
 }
 #contact .table_type_01 {
   margin-top: 100px;
+}
+
+/* science_publications */
+#science_publications main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/main/img_07.jpg);
+  background-size: cover;
+}
+#science_publications .table_box {
+  margin-top: 100px;
+}
+#science_publications .table_box .table_type_01 {
+  margin-top: 30px;
+}
+#science_publications .list_type_03 {
+  margin-top: 50px;
 }
