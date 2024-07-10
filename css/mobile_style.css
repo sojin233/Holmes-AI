@@ -1,0 +1,22 @@
+/* -- Desktop -- */
+@media (max-width: 1200px) {
+  body {
+    border: 3px solid red;
+  }
+}
+
+/* -- Tablet -- */
+@media screen and (max-width: 1100px) {
+}
+
+/* 모바일 가로 & 테블릿 세로 */
+@media screen and (max-width: 768px) {
+}
+
+/* 모바일 360 이하 */
+/* 모바일 세로*/
+@media screen and (max-width: 360px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
