@@ -186,13 +186,16 @@ footer .wrap .content_box .text p {
 .tit_type_02 h2 {
   font-size: var(--font-size-h2);
   line-height: var(--font-height-h2);
-  text-align: center;
 }
 .tit_type_02 p {
   margin-top: 20px;
   font-size: var(--font-size-md);
   line-height: var(--font-height-md);
 }
+.tit_type_02 h2:nth-child(3) {
+  margin-top: 30px;
+}
+
 /* ======================= list_type ======================= */
 /* .list_type_01  */
 .list_type_01 {
@@ -309,6 +312,46 @@ footer .wrap .content_box .text p {
   display: inline-block;
   font-size: var(--font-size-md);
   line-height: var(--font-height-md);
+  margin-top: 10px;
+}
+
+.list_type_04 > p {
+  display: inline-block;
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+  margin-top: 10px;
+}
+.list_type_04 .list_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.list_type_04 .text_wrap {
+  padding-bottom: 30px;
+}
+.list_type_04 .text_box {
+  padding-left: 30px;
+  position: relative;
+}
+.list_type_04 .text_box::before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to bottom, #2376dd, #ff9050);
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.list_type_04 .text_box span {
+  color: #4b5563;
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+}
+.list_type_04 .text_box p {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
+  font-weight: 700;
   margin-top: 10px;
 }
 

@@ -217,18 +217,57 @@ body {
   margin-top: 100px;
 }
 
-/* science_publications */
-#science_publications main {
+/* science */
+.science main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../img/main/img_07.jpg);
   background-size: cover;
 }
-#science_publications .table_box {
+#science_cardiology .table_box {
   margin-top: 100px;
 }
-#science_publications .table_box .table_type_01 {
+#science_cardiology .table_box .table_type_01 {
   margin-top: 30px;
 }
-#science_publications .list_type_03 {
+#science_cardiology .list_type_03 {
+  margin-top: 50px;
+}
+
+/* science_publications */
+.company main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/main/img_06.jpg);
+  background-size: cover;
+}
+
+#company_about .tit_type_02 {
+  margin-top: 50px;
+}
+#company_about .video_box {
+  margin-top: 100px;
+}
+#company_about .video_box iframe {
+  border: 1px solid #000;
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+}
+#company_about .video_box video {
+  border: 1px solid #000;
+  width: 100%;
+  background-color: #fff;
+}
+#company_about .list_type_04 {
+  margin-top: 100px;
+}
+#company_about .map_box {
+  margin-top: 100px;
+}
+#company_about .map_box h3 {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
+  text-align: center;
+}
+#company_about .map_box img {
   margin-top: 50px;
 }
