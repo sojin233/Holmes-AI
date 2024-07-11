@@ -249,6 +249,10 @@
   #company_about .video_box iframe {
     height: 200px;
   }
+  #company_about .company_img_box img {
+    height: 200px;
+    object-fit: cover;
+  }
   #company_about .map_box img {
     margin-top: 30px;
   }
