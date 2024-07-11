@@ -536,7 +536,7 @@ footer .wrap .content_box .text p {
   position: relative;
 }
 .tabmenu > ul > li {
-  min-width: 250px;
+  min-width: 200px;
   display: inline-block;
   background: #fff;
   border-radius: 99px;
