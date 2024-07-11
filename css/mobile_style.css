@@ -261,7 +261,7 @@
     width: 100%;
   }
   .rolling_wrap .rolling-list ul li {
-    width: 200px;
+    width: 140px;
     height: 130px;
     margin: 0 30px;
     padding: 0px;
@@ -337,6 +337,9 @@
   .up_btn .icon_up {
     width: 20px;
     height: 20px;
+  }
+  .btn_type_01 {
+    height: 35px;
   }
 }
 
