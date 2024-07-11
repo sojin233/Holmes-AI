@@ -405,6 +405,58 @@ footer .wrap .content_box .text p {
   -webkit-box-orient: vertical;
 }
 
+/* ======================= people_list ======================= */
+.people_list {
+  margin-top: 100px;
+}
+.people_list ul li {
+  display: flex;
+}
+.people_list ul li:nth-child(n + 2) {
+  margin-top: 60px;
+}
+.people_list ul li:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.people_list ul li:nth-child(2n) .text_box {
+  text-align: right;
+  margin-left: 0;
+  margin-right: 30px;
+}
+.people_list ul li:nth-child(2n) .img_box::after {
+  left: -14px;
+}
+.people_list ul li .img_box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #d1d5db;
+}
+.people_list ul li .img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.people_list ul li .text_box {
+  width: 50%;
+  margin-left: 50px;
+}
+.people_list ul li .text_box em {
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+  color: var(--color-point);
+}
+.people_list ul li .text_box h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
+}
+.people_list ul li .text_box p {
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+  margin-top: 20px;
+}
+
 /* ======================= .btn_type_01 ======================= */
 .btn_type_01 {
   display: inline-block;

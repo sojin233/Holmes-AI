@@ -233,13 +233,12 @@ body {
   margin-top: 50px;
 }
 
-/* science_publications */
+/* company */
 .company main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../img/main/img_06.jpg);
   background-size: cover;
 }
-
 #company_about .tit_type_02 {
   margin-top: 50px;
 }
@@ -275,7 +274,7 @@ body {
 #company_jobs .img_box img {
   margin-top: 50px;
 }
-#company_jobs p {
+#company_jobs .img_box p {
   font-size: var(--font-size-md);
   line-height: var(--font-height-md);
   margin-top: 30px;
