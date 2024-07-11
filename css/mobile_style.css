@@ -354,7 +354,4 @@
 /* 모바일 360 이하 */
 /* 모바일 세로*/
 @media screen and (max-width: 360px) {
-  body {
-    border: 3px solid blue;
-  }
 }
