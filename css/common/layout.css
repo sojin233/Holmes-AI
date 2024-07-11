@@ -582,57 +582,46 @@ footer .wrap .content_box .text p {
 }
 
 /*======================= tab box ======================= */
-.tabmenu {
-  width: 100%;
-  position: relative;
-}
-.tabmenu > ul {
-  position: relative;
-}
-.tabmenu > ul > li {
-  min-width: 200px;
+/* 탭 스타일 */
+.tab_item {
   display: inline-block;
-  background: #fff;
-  border-radius: 99px;
-}
-.tabmenu > ul > li:nth-child(n + 2) {
-  margin-left: 20px;
-}
-.tabmenu label {
-  display: block;
-  width: 100%;
-  padding: 10px 30px;
+  width: 200px;
+  transition: all 0.2s ease;
+  padding: 10px 20px;
   text-align: center;
   font-size: var(--font-size-lg);
   line-height: var(--font-height-lg);
   border-radius: 99px;
   border: 1px solid #9ca3af;
 }
-.tabmenu input {
+.tab_item:nth-child(4) {
+  margin-left: 20px;
+}
+.tab_item:nth-child(6) {
+  margin-left: 20px;
+}
+/* 라디오 버튼 UI삭제*/
+input[name="tab_item"] {
   display: none;
 }
-.tabCon {
+/* 탭 컨텐츠 스타일 */
+.tab_content {
   display: none;
-  width: 100%;
-  text-align: left;
-  position: absolute;
-  left: 0;
-  top: 100px;
-  box-sizing: border-box;
+  margin-top: 50px;
 }
-.tabCon p {
-  font-size: var(--font-size-md);
-  line-height: var(--font-height-md);
+/* 선택 된 탭 콘텐츠를 표시 */
+#all:checked ~ #all_content,
+#programming:checked ~ #programming_content,
+#design:checked ~ #design_content {
+  display: block;
 }
-.tabmenu input:checked ~ label {
+/* 선택된 탭 스타일 */
+.tabs input:checked + .tab_item {
   color: #fff;
   font-weight: 700;
   background: linear-gradient(to right, #2376dd, #ff9050);
   border-radius: 99px;
   border: 0 solid;
-}
-.tabmenu input:checked ~ .tabCon {
-  display: block;
 }
 
 /*======================= slider ======================= */

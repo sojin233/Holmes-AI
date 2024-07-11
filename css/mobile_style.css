@@ -1,8 +1,5 @@
 /* -- Desktop -- */
 @media (max-width: 1200px) {
-  body {
-    border: 3px solid red;
-  }
   .wrap {
     padding: 0 30px;
   }
@@ -16,10 +13,6 @@
 
     --font-height-h1: 56px;
     --font-height-h2: 40px;
-  }
-
-  body {
-    border: 3px solid orange;
   }
   nav > ul {
     display: none;
@@ -182,15 +175,10 @@
     --font-height-sl: 16px;
     --font-heightize-sm: 14px;
   }
-  body {
-    border: 3px solid yellow;
-  }
-  .wrap {
-    padding: 0 20px;
-  }
   .logo-box a img {
     width: 80px;
   }
+
   footer .wrap .ft_info ul {
     display: none;
   }
@@ -213,6 +201,9 @@
   }
   .tit_type_01 p br {
     display: none;
+  }
+  #main section {
+    margin: 100px 0;
   }
   #main main .wrap .main_tit h1 br {
     display: none;
@@ -239,6 +230,19 @@
   #main #section_06 .tabCon .content ul li img {
     height: 200px;
   }
+  #main #section_06 .content ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #main #section_06 .content ul li {
+    width: 100%;
+  }
+  #main #section_06 .content ul li img {
+    height: 200px;
+  }
+  #section_08 .new_list {
+    grid-template-columns: repeat(1, 1fr);
+  }
   #platform_iomt .list_type_01:last-child li:last-child .img_box img {
     height: 70%;
   }
@@ -255,6 +259,12 @@
   }
   #contact .map_list ul li {
     width: 100%;
+  }
+  .rolling_wrap .rolling-list ul li {
+    width: 200px;
+    height: 130px;
+    margin: 0 30px;
+    padding: 0px;
   }
   .new_list {
     gap: 30px;
@@ -289,7 +299,20 @@
     text-align: left;
     margin-right: 0;
   }
-
+  .tab_content {
+    margin-top: 30px;
+  }
+  .tab_item {
+    width: 100%;
+  }
+  .tab_item:nth-child(4) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .tab_item:nth-child(6) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
   .list_type_01 li .img_box {
     height: 200px;
   }
@@ -302,7 +325,7 @@
   }
   .slider_content .text_box {
     margin-top: 10px;
-    padding: 0px 20px;
+    padding: 0px;
   }
   .up_wrap {
     padding: 0 30px 30px;
