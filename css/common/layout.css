@@ -148,7 +148,7 @@ footer .wrap .content_box .text p {
   background: linear-gradient(to right, #2376dd, #ff9050);
 }
 .sub_list li.active a {
-  color: #fff;
+  color: #1f2937;
   font-weight: 700;
 }
 .sub_list li a {
@@ -157,7 +157,7 @@ footer .wrap .content_box .text p {
   display: inline-block;
   font-size: var(--font-size-lg);
   line-height: var(--font-height-lg);
-  color: #202020;
+  color: #1f2937;
 }
 
 /*======================= tit_type ======================= */
