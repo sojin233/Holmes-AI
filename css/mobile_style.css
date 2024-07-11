@@ -1,5 +1,9 @@
 /* -- Desktop -- */
 @media (max-width: 1200px) {
+  html,
+  body {
+    font-family: emoji !important;
+  }
   .wrap {
     padding: 0 30px;
   }
