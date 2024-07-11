@@ -287,3 +287,19 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+/* news */
+.platform main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/main/img_08.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#platform_ai .list_type_01 {
+  margin-top: 100px;
+}
+
+#platform_ai .list_type_03 {
+  margin-top: 50px;
+}
