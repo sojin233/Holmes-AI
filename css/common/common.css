@@ -713,6 +713,9 @@ html {
 .icon_prescriptions_g {
   background-image: url(../../img/common/icon/icon_prescriptions_g.png);
 }
+.icon_up {
+  background-image: url(../../img/common/icon/arrow_up.png);
+}
 
 /* ======================= scroll-box ======================= */
 .scroll-box {

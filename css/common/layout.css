@@ -476,6 +476,22 @@ footer .wrap .content_box .text p {
   color: #fff;
   font-weight: 700;
 }
+.up_wrap {
+  text-align: right;
+  padding: 0 50px 50px;
+}
+.up_btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 99px;
+  background: linear-gradient(to right, #2376dd, #ff9050);
+}
+.up_btn .icon_up {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
 
 /* ======================= table_type ======================= */
 .table_type_01 {
@@ -584,6 +600,7 @@ footer .wrap .content_box .text p {
 }
 .slider_content .text_box {
   margin-top: 30px;
+  padding: 0px 30px;
 }
 .slider_content .text_box p {
   display: inline-block;
