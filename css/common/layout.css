@@ -131,7 +131,7 @@ footer .wrap .content_box .text p {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .sub_list li {
   width: 100%;
@@ -157,7 +157,7 @@ footer .wrap .content_box .text p {
   display: inline-block;
   font-size: var(--font-size-lg);
   line-height: var(--font-height-lg);
-  color: #d1d5db;
+  color: #202020;
 }
 
 /*======================= tit_type ======================= */
@@ -206,7 +206,6 @@ footer .wrap .content_box .text p {
   align-items: center;
   gap: 30px;
   background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid #d1d5db;
 }
 .list_type_01 li:nth-child(n + 2) {
   margin-top: 50px;
