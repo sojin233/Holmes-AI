@@ -271,3 +271,12 @@ body {
 #company_about .map_box img {
   margin-top: 50px;
 }
+
+#company_jobs .img_box img {
+  margin-top: 50px;
+}
+#company_jobs p {
+  font-size: var(--font-size-md);
+  line-height: var(--font-height-md);
+  margin-top: 30px;
+}
