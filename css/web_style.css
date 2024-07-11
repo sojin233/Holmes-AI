@@ -30,7 +30,6 @@ body {
 .wrap {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid tan;
 }
 .section_wrap {
   width: 100%;
