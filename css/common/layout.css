@@ -360,7 +360,7 @@ footer .wrap .content_box .text p {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 50px 30px;
   width: 100%;
 }
 .new_list li {
