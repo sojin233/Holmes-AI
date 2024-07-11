@@ -300,6 +300,12 @@ body {
 #platform_ai .list_type_01 {
   margin-top: 100px;
 }
+#platform_ai .gif_box {
+  margin-top: 50px;
+}
+#platform_ai .gif_box img {
+  width: 100%;
+}
 #platform_ai .list_type_03 {
   margin-top: 50px;
 }
