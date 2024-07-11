@@ -916,6 +916,13 @@ footer .wrap .content_box .text p {
   transition: 0.5s ease-in-out;
   color: #1f2937;
 }
+.nav-mobile .content-box > ul > li:hover {
+  background: linear-gradient(to right, #2376dd, #ff9050);
+}
+.nav-mobile .content-box > ul > li:hover a {
+  color: #fff;
+  font-weight: 700;
+}
 .nav-mobile .content-box > ul > li > .nav-txt {
   width: 100%;
   display: flex;

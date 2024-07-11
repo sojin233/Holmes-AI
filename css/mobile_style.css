@@ -106,7 +106,7 @@
   .list_type_04 .list_wrap .img_box img {
     width: 100%;
     height: 400px;
-    object-fit: fill;
+    object-fit: contain;
   }
   .people_list ul li .text_box {
     width: calc(100% - 200px);
@@ -165,8 +165,155 @@
 
 /* 모바일 가로 & 테블릿 세로 */
 @media screen and (max-width: 768px) {
+  :root {
+    --font-size-h1: 24px;
+    --font-size-h2: 20px;
+
+    --font-size-lg: 18px;
+    --font-size-md: 14px;
+    --font-size-sl: 12px;
+    --font-size-sm: 10px;
+
+    --font-height-h1: 30px;
+    --font-height-h2: 28px;
+
+    --font-height-lg: 24px;
+    --font-height-md: 20px;
+    --font-height-sl: 16px;
+    --font-heightize-sm: 14px;
+  }
   body {
     border: 3px solid yellow;
+  }
+  .wrap {
+    padding: 0 20px;
+  }
+  .logo-box a img {
+    width: 80px;
+  }
+  footer .wrap .ft_info ul {
+    display: none;
+  }
+  footer .wrap .logo_box img {
+    width: 100px;
+  }
+  .ico-nav {
+    width: 24px;
+    height: 24px;
+  }
+  .ico-nav i:nth-child(2),
+  .ico-nav i:nth-child(3) {
+    top: 10px;
+  }
+  .ico-nav i {
+    height: 2px;
+  }
+  .ico-nav i:nth-child(4) {
+    top: 20px;
+  }
+  .tit_type_01 p br {
+    display: none;
+  }
+  #main main .wrap .main_tit h1 br {
+    display: none;
+  }
+  #main main .wrap .main_tit h1 {
+    bottom: 80px;
+  }
+  #main #section_04 .wrap .content_box .content .img_box {
+    height: 200px;
+  }
+  #main #section_04 .wrap .content_box .content .text_box {
+    margin-top: 20px;
+  }
+  #main #section_05 .wrap .content_box {
+    padding: 30px 20px;
+  }
+  #main #section_06 .tabCon .content ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #main #section_06 .tabCon .content ul li {
+    width: 100%;
+  }
+  #main #section_06 .tabCon .content ul li img {
+    height: 200px;
+  }
+  #platform_iomt .list_type_01:last-child li:last-child .img_box img {
+    height: 70%;
+  }
+  #company_about .video_box iframe {
+    height: 200px;
+  }
+  #company_about .map_box img {
+    margin-top: 30px;
+  }
+  #contact .map_list ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  #contact .map_list ul li {
+    width: 100%;
+  }
+  .new_list {
+    gap: 30px;
+  }
+  .new_list li .text_box {
+    padding: 10px;
+  }
+  .new_list li .img_box {
+    height: 130px;
+  }
+  .list_type_02 ul {
+    gap: 30px;
+  }
+  .tit_type_02 p {
+    margin-top: 10px;
+  }
+  .list_type_04 .text_wrap {
+    padding-bottom: 20px;
+  }
+  .list_type_04 .list_wrap .img_box img {
+    height: 200px;
+  }
+  .people_list ul li {
+    display: inline-block;
+  }
+  .people_list ul li .text_box {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .people_list ul li:nth-child(2n) .text_box {
+    text-align: left;
+    margin-right: 0;
+  }
+
+  .list_type_01 li .img_box {
+    height: 200px;
+  }
+  .tabmenu > ul > li:nth-child(n + 2) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .slider_content .img_box img {
+    height: 200px;
+  }
+  .slider_content .text_box {
+    margin-top: 10px;
+    padding: 0px 20px;
+  }
+  .up_wrap {
+    padding: 0 30px 30px;
+  }
+  .up_btn {
+    width: 50px;
+    height: 50px;
+  }
+  .up_btn .icon_up {
+    width: 20px;
+    height: 20px;
   }
 }
 
