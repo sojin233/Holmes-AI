@@ -67,7 +67,7 @@ body {
   color: var(--color-light);
 }
 #main section {
-  margin: 10% 0;
+  margin: 100px 0;
 }
 /* section_01 */
 #main #section_01 video {
@@ -238,6 +238,9 @@ body {
     url(../img/main/img_06.jpg);
   background-size: cover;
 }
+#company_about .company_img_box img {
+  width: 100%;
+}
 #company_about .tit_type_02 {
   margin-top: 50px;
 }
@@ -268,10 +271,12 @@ body {
 }
 #company_about .map_box img {
   margin-top: 50px;
+  width: 100%;
 }
 
 #company_jobs .img_box img {
   margin-top: 50px;
+  width: 100%;
 }
 #company_jobs .img_box p {
   font-size: var(--font-size-md);
@@ -301,13 +306,13 @@ body {
 #platform_ai .list_type_03 {
   margin-top: 50px;
 }
-#platform_iomt .img_box {
+#platform_iomt .img_text_box {
   margin-top: 100px;
 }
-#platform_iomt .img_box img {
+#platform_iomt .img_text_box img {
   width: 100%;
 }
-#platform_iomt .img_box h3 {
+#platform_iomt .img_text_box h3 {
   font-size: var(--font-size-h2);
   line-height: var(--font-height-h2);
   font-weight: 700;
