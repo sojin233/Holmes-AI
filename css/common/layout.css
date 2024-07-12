@@ -227,7 +227,6 @@ footer .wrap .content_box .text p {
   line-height: var(--font-height-md);
   text-align: center;
 }
-
 .list_type_01 li .text_box {
   width: 50%;
 }
@@ -244,6 +243,12 @@ footer .wrap .content_box .text p {
 .list_type_01 li .text_box p {
   font-size: var(--font-size-md);
   line-height: var(--font-height-md);
+}
+.list_type_01 li.have_p .img_box {
+  height: auto;
+}
+.list_type_01 li.have_p .img_box img {
+  height: 400px;
 }
 
 /* .list_type_02  */
