@@ -123,13 +123,18 @@ body {
   gap: 30px;
 }
 #main #section_06 .content ul li {
-  width: 25%;
+  width: 20%;
 }
 #main #section_06 .content ul li p {
   font-size: var(--font-size-md);
   line-height: var(--font-height-md);
   font-weight: 700;
   margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 #main #section_06 .content ul li img {
   background-color: #fff;
@@ -305,6 +310,12 @@ body {
 }
 #platform_ai .gif_box img {
   width: 100%;
+}
+#platform_ai .tit_type_02 h2 {
+  display: inline-block;
+  background: linear-gradient(to right, #2376dd, #ff9050);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 #platform_ai .list_type_03 {
   margin-top: 50px;
