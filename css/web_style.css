@@ -249,6 +249,12 @@ body {
 #company_about .video_box {
   margin-top: 100px;
 }
+#company_about .video_box img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: bottom center;
+}
 #company_about .video_box iframe {
   border: 1px solid #000;
   width: 100%;
