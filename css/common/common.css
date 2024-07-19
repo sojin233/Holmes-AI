@@ -772,7 +772,7 @@ html {
 
 .ani_hidden {
   opacity: 0;
-  transition: opacity 2s ease; /* 여기서 시간을 3초로 변경 */
+  transition: opacity 1.5s ease; /* 여기서 시간을 3초로 변경 */
 }
 .ani_hidden.active {
   opacity: 1;
