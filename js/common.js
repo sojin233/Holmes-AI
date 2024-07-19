@@ -22,3 +22,37 @@ $(document).ready(function () {
     $(this).siblings().removeClass("open");
   });
 });
+
+$(document).ready(function () {
+  $(window).on("scroll", fnUpDown);
+  fnUpDown(); // 페이지가 로드될 때도 함수를 실행
+  function fnUpDown() {
+    $(".ani_updown").each(function () {
+      var windowHeight = $(window).height();
+      var elementTop = $(this).offset().top;
+      var scrollTop = $(window).scrollTop();
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight + scrollTop - elementVisible) {
+        $(this).addClass("active");
+      }
+    });
+  }
+});
+
+$(document).ready(function () {
+  $(window).on("scroll", function () {
+    $(".ani_hidden").each(function () {
+      var windowHeight = $(window).height();
+      var elementTop = $(this).offset().top;
+      var scrollTop = $(window).scrollTop();
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight + scrollTop - elementVisible) {
+        $(this).addClass("active");
+      }
+    });
+  });
+  // 페이지가 로드될 때도 함수를 실행하여 이미 보이는 텍스트는 활성화
+  $(window).scroll();
+});

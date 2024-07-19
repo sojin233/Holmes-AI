@@ -757,3 +757,23 @@ html {
     top: 40px;
   }
 }
+
+/* 애니메이션 효과 */
+.ani_updown {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.ani_updown.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.ani_hidden {
+  opacity: 0;
+  transition: opacity 2s ease; /* 여기서 시간을 3초로 변경 */
+}
+.ani_hidden.active {
+  opacity: 1;
+}

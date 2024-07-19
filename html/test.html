@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll to Show Text</title>
+  <style>
+    .hidden-text {
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .hidden-text.active {
+      opacity: 1;
+    }
+
+    /* 예시용 스타일 */
+    .container {
+      height: 1500px;
+      padding: 20px;
+    }
+
+    .hidden-text-wrapper {
+      margin-top: 500px;
+      /* 텍스트가 화면 아래에서 나타나도록 여백 추가 */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="hidden-text-wrapper">
+      <p class="hidden-text">This text will appear when you scroll down.</p>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).on("scroll", function () {
+        $(".hidden-text").each(function () {
+          var windowHeight = $(window).height();
+          var elementTop = $(this).offset().top;
+          var scrollTop = $(window).scrollTop();
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight + scrollTop - elementVisible) {
+            $(this).addClass("active");
+          }
+        });
+      });
+      // 페이지가 로드될 때도 함수를 실행하여 이미 보이는 텍스트는 활성화
+      $(window).scroll();
+    });
+  </script>
+</body>
+
+</html>
