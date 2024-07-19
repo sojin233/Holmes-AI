@@ -24,35 +24,30 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $(window).on("scroll", fnUpDown);
-  fnUpDown(); // 페이지가 로드될 때도 함수를 실행
-  function fnUpDown() {
-    $(".ani_updown").each(function () {
-      var windowHeight = $(window).height();
-      var elementTop = $(this).offset().top;
-      var scrollTop = $(window).scrollTop();
-      var elementVisible = 150;
+  // 공통 함수로 합치기
+  function fnCheckVisibility() {
+    var windowHeight = $(window).height();
+    var scrollTop = $(window).scrollTop();
+    var elementVisible = 150;
 
+    // .ani_updown 클래스 처리
+    $(".ani_updown").each(function () {
+      var elementTop = $(this).offset().top;
+      if (elementTop < windowHeight + scrollTop - elementVisible) {
+        $(this).addClass("active");
+      }
+    });
+
+    // .ani_hidden 클래스 처리
+    $(".ani_hidden").each(function () {
+      var elementTop = $(this).offset().top;
       if (elementTop < windowHeight + scrollTop - elementVisible) {
         $(this).addClass("active");
       }
     });
   }
-});
 
-$(document).ready(function () {
-  $(window).on("scroll", function () {
-    $(".ani_hidden").each(function () {
-      var windowHeight = $(window).height();
-      var elementTop = $(this).offset().top;
-      var scrollTop = $(window).scrollTop();
-      var elementVisible = 150;
-
-      if (elementTop < windowHeight + scrollTop - elementVisible) {
-        $(this).addClass("active");
-      }
-    });
-  });
-  // 페이지가 로드될 때도 함수를 실행하여 이미 보이는 텍스트는 활성화
-  $(window).scroll();
+  // 스크롤 이벤트 및 페이지 로드 시 함수 실행
+  $(window).on("scroll", fnCheckVisibility);
+  fnCheckVisibility();
 });
