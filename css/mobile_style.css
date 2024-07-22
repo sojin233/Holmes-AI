@@ -24,6 +24,20 @@
   .btn-menu {
     display: block;
   }
+  .main_slider {
+    height: 50vh;
+  }
+  .main_slider .slider_content .img_box img {
+    height: 100%;
+    object-position: center;
+  }
+  .main_slider .slider_content h1 {
+    left: 30px;
+    bottom: 80px;
+  }
+  #main main {
+    height: auto;
+  }
   footer {
     padding: 50px 0 !important;
   }
