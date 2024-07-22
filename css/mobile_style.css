@@ -144,7 +144,7 @@
   .infinite_content .icon_wrap .logoCenter {
     transform: translate(-324%, -50%);
   }
-  .slider_content .img_box img {
+  .slider_wrap .slider_content .img_box img {
     height: 300px;
   }
   #main #section_04 .wrap .content_box .content {
