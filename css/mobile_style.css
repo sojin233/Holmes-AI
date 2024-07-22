@@ -25,7 +25,7 @@
     display: block;
   }
   .main_slider {
-    height: 50vh;
+    height: auto;
   }
   .main_slider .slider_content .img_box img {
     height: 100%;
