@@ -353,10 +353,10 @@
     margin-left: 0;
     margin-top: 10px;
   }
-  .slider_content .img_box img {
+  .slider_wrap .slider_content .img_box img {
     height: 200px;
   }
-  .slider_content .text_box {
+  .slider_wrap .slider_content .text_box {
     margin-top: 10px;
     padding: 0px;
   }
