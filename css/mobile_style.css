@@ -224,6 +224,9 @@
   .tit_type_01 p br {
     display: none;
   }
+  .main_slider .slider_content h1 {
+    bottom: 30px;
+  }
   #main section {
     margin: 100px 0;
   }
