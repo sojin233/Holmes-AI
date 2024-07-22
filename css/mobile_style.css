@@ -155,6 +155,10 @@
   #company_about .video_box iframe {
     height: 400px;
   }
+  #company_about .video_box img {
+    object-fit: contain;
+    height: 400px;
+  }
   #contact .map_list ul li iframe {
     height: 400px;
   }
@@ -259,6 +263,9 @@
   }
   #company_about .map_box img {
     margin-top: 30px;
+  }
+  #company_about .video_box img {
+    height: 200px;
   }
   #contact .map_list ul {
     display: grid;
