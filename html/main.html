@@ -38,6 +38,13 @@
       autoplaySpeed: 1500,
     });
 
+    $(".main_slider").slick({
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 1500,
+    });
+
     // 롤링 배너 복제본 생성
     let roller = document.querySelector(".rolling-list");
     roller.id = "roller1"; // 아이디 부여
@@ -99,13 +106,39 @@
   </header>
 
   <main>
+    <div class="main_slider">
+      <div class="slider_content">
+        <div class="img_box">
+          <img src="../img/main/img_21.jpg" alt="">
+        </div>
+        <div class="text_box">
+          <h1>
+            CLholmes®, <br>
+            Healthy heart in aging era.
+          </h1>
+        </div>
+      </div>
+
+      <div class="slider_content">
+        <div class="img_box">
+          <img src="../img/main/img_01.jpg" alt="">
+        </div>
+        <div class="text_box">
+          <h1>
+            HolmesAI makes a world where <br>
+            diseases are controlled.
+          </h1>
+        </div>
+      </div>
+    </div>
+
     <div class="wrap">
-      <div class="main_tit">
+      <!-- <div class="main_tit">
         <h1>
           HolmesAI makes a world where <br>
           diseases are controlled.
         </h1>
-      </div>
+      </div> -->
     </div>
   </main>
 
