@@ -154,6 +154,7 @@ footer .wrap .content_box .text p {
 .sub_list li a {
   padding: 20px;
   width: 100%;
+  height: 100%;
   display: inline-block;
   font-size: var(--font-size-lg);
   line-height: var(--font-height-lg);
