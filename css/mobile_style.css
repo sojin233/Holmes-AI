@@ -151,6 +151,9 @@
   .slider_wrap .slider_content .img_box img {
     height: 300px;
   }
+  #main #section_01 .video_box {
+    height: 400px;
+  }
   #main #section_04 .wrap .content_box .content {
     display: inline-block;
   }
@@ -243,6 +246,9 @@
   }
   #main main .wrap .main_tit h1 {
     bottom: 80px;
+  }
+  #main #section_01 .video_box {
+    height: 200px;
   }
   #main #section_04 .wrap .content_box .content .img_box {
     height: 200px;
