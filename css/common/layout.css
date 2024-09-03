@@ -311,6 +311,9 @@ footer .wrap .content_box .text p {
   font-weight: 700;
   color: #9ca3af;
 }
+.list_type_03 ul li .text_box span em {
+  font-weight: 700;
+}
 .list_type_03 ul li .text_box {
   width: calc(100% - 50px);
 }

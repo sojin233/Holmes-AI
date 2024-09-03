@@ -287,6 +287,13 @@ body {
   margin-top: 50px;
   width: 100%;
 }
+#company_esg .company_img_box {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#company_esg .tit_type_02 {
+  margin-bottom: 50px;
+}
 
 #company_jobs .img_box img {
   margin-top: 50px;
