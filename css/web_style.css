@@ -291,6 +291,9 @@ body {
   margin-top: 50px;
   margin-bottom: 30px;
 }
+#company_esg .company_img_box img {
+  width: 100%;
+}
 #company_esg .tit_type_02 {
   margin-bottom: 50px;
 }

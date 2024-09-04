@@ -235,6 +235,14 @@
   .tit_type_01 p br {
     display: none;
   }
+  .sub_list li a {
+    padding: 10px 5px;
+    font-size: var(--font-size-sl);
+    line-height: var(--font-height-sl);
+  }
+  .sub_list li.active::before {
+    height: 5px;
+  }
   .main_slider .slider_content h1 {
     bottom: 30px;
   }
