@@ -607,6 +607,9 @@ footer .wrap .content_box .text p {
 .tab_item:nth-child(6) {
   margin-left: 20px;
 }
+.tab_item:nth-child(8) {
+  margin-left: 20px;
+}
 /* 라디오 버튼 UI삭제*/
 input[name="tab_item"] {
   display: none;
@@ -616,10 +619,21 @@ input[name="tab_item"] {
   display: none;
   margin-top: 50px;
 }
+.tab_content h1 {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-h2);
+}
+.tab_content h5 {
+  font-size: var(--font-height-md);
+  line-height: var(--font-height-md);
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
 /* 선택 된 탭 콘텐츠를 표시 */
 #all:checked ~ #all_content,
 #programming:checked ~ #programming_content,
-#design:checked ~ #design_content {
+#design:checked ~ #design_content,
+#awards:checked ~ #awards_content {
   display: block;
 }
 /* 선택된 탭 스타일 */
@@ -790,13 +804,7 @@ input[name="tab_item"] {
   transform: rotate(225deg);
 }
 .infinite_content .infinite_wrap:hover .infinite {
-  background: linear-gradient(
-    var(--rotate),
-    #106ab7,
-    #0c518d,
-    #ff9050,
-    #ff7866
-  );
+  background: linear-gradient(var(--rotate), #106ab7, #0c518d, #ff9050, #ff7866);
   animation: spin 5.5s linear infinite;
 }
 @keyframes spin {

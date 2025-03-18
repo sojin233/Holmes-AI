@@ -141,6 +141,7 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  height: 50px;
 }
 #main #section_06 .content ul li img {
   background-color: #fff;
@@ -148,6 +149,10 @@ body {
   height: 300px;
   object-fit: contain;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+#main #section_06 #awards_content .content ul li img {
+  width: 100%;
+  height: 320px;
 }
 /* section_07 */
 #section_07 .rolling_wrap {
