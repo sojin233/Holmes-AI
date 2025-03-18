@@ -383,6 +383,10 @@
     margin-left: 0;
     margin-top: 10px;
   }
+  .tab_item:nth-child(8) {
+    margin-left: 0;
+    margin-top: 10px;
+  }
   .list_type_01 li .img_box {
     height: 200px;
   }
