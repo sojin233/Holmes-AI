@@ -153,6 +153,7 @@ body {
 #main #section_06 #awards_content .content ul li img {
   width: 100%;
   height: 320px;
+  background: none;
 }
 /* section_07 */
 #section_07 .rolling_wrap {
